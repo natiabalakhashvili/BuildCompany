@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gokoguz.ge</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  	<link rel="stylesheet" href="assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+  	<script src="assets/js/bootstrap.min.js"></script>
+  	<script src="assets/js/script.js"></script>
+</head>
+<body>
+
+<!--header start-->
+
+	<header class="container-fluid border-btm">
+		<nav class="navbar navbar-default container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand" href="index.html">
+		      	<img src="assets/images/logo.png" alt="logo">
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">ge</a></li>
+		      	<li class="active-lan"><a href="#">en</a></li>
+		        <li><a href="#">ru</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html">Home</a></li>
+		      	<li><a href="about.html">about</a></li>
+		        <li><a href="services.html">services</a></li>
+		        <li><a href="projects.html">projects</a></li>
+		        <li class="active"><a href="contact.html">contact</a></li>
+		      </ul>
+		    </div>
+		</nav>
+	</header>
+
+<!-- header end -->
+
+<!-- grey line start -->
+
+	<div class="container-fluid greyline"></div>
+
+<!-- grey line end -->
+
+<!--contact start -->
+
+	<div class="map-main">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d381115.18266540254!2d44.55866895230048!3d41.73211894051142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1508416090832" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 main-contact">
+			<div class="contact-head text-center">
+				კონტაქტი
+			</div>
+			<form action="http://www.gada.ge/ka/contact/send/" onsubmit="return contact.send(this);">
+				<div class="form-group">
+					<input type="text" id="Name" name="Name" data-error="*" placeholder="სახელი">
+				</div>
+				<div class="form-group">
+					<input type="text" id="Email" name="Email" data-error="*" placeholder="მიუთითეთ თქვენი ელ-ფოსტა">
+				</div>
+				<div class="form-group">
+					<input type="text" id="Phone" name="Phone" data-error="*" placeholder="თქვენი ტელეფონის ნომერი" onkeydown="validate(event, 'int');">
+				</div>
+				<div class="form-group">
+					<textarea id="Message" name="Message" placeholder="წერილის ტექსტი" data-error="*"></textarea>
+				</div>
+				<button class="btn btn-default pull-right">
+					გაგზავნა
+				</button>
+			</form>
+		</div>
+	</div>
+
+<!-- contact end -->
+
+<!-- footer start -->
+	<footer>
+		<div class="container">
+			<div class="row mg-tp-30 pd-btm-50">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info color">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-address-book" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						8901 Marmora Road, Glasgow,  D04 
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						Example@gmail.com
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-info-circle" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-phone-square" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						557-11-22-33 / 598-22-12-12
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-facebook-square" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						facebook.com/emaengineering.ge
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-twitter-square" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						twitter.com/emaengineering.ge
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 info">
+					<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</div>
+					<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10">
+						instagram.com/emaengineering.ge
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="container-fluid back-red">
+			<div class="container">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+					<div class="border-top col-lg-6 col-md-6 col-sm-12 col-xs-12 color-white font-size-14">
+					 © copyright
+					</div>
+					<div class="border-top col-lg-6 col-md-6 col-sm-12 col-xs-12 text-right icons">
+						<a href="">
+							<i class="fa fa-facebook-square" aria-hidden="true"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-twitter-square" aria-hidden="true"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+<!-- footer end -->
+
+</body>
+</html>
